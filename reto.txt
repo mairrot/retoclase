@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Reto {
+	
+	static double num1,num2;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("ingrese el primer numero");
+		double num1=scan.nextDouble();
+		System.out.println("ingrese el segundo numero");
+		double num2=scan.nextDouble();
+		if (num1>num2) {
+			System.out.println("el numero mayor es " + num1);
+		}
+		if (num1<num2) {
+			System.out.println("el numero mayor es " + num2);
+		}
+	}
+
+}
